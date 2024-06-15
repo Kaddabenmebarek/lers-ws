@@ -1,0 +1,33 @@
+spring:
+  profiles:
+    active: test
+
+server:
+  servlet:
+    context-path: /lers
+  port: 9980
+
+logging:
+  level:
+    root: INFO
+    com:
+      baeldung: INFO
+
+---
+
+spring:
+  profiles: test
+  jpa:
+    hibernate:
+      ddl-auto: validate
+    database-platform: org.hibernate.dialect.Oracle10gDialect
+    show-sql: true
+
+---
+
+spring:
+  profiles: prod
+  jpa:
+    hibernate:
+      ddl-auto: validate
+    database-platform: org.hibernate.dialect.Oracle10gDialect

@@ -1,0 +1,4 @@
+
+alter table CHEMINFRA.INSTRUMENT add SELECTOVERLAP NUMBER(1) default 0;
+
+alter table CHEMINFRA.RESERVATION add RATIO NUMBER(3) default 0;
