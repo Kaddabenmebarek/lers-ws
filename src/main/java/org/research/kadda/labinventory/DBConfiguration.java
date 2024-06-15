@@ -18,8 +18,8 @@ public class DBConfiguration {
     public DataSource testDatabaseConnection() {
         DataSource dataSource = DataSourceBuilder
                 .create()
-                .username("CHEMINFRAUSER")
-                .password("CIF1848")
+                .username("***")
+                .password("***")
                 .url("jdbc:oracle:thin:@hypnos-test.com:1521:TESTACT0")
                 .build();
         return dataSource;
@@ -30,8 +30,8 @@ public class DBConfiguration {
     public DataSource prodDatabaseConnection() {
         DataSource dataSource = DataSourceBuilder
                 .create()
-                .username("CHEMINFRAUSER")
-                .password("CIF1848")
+                .username("***")
+                .password("***")
                 .url("jdbc:oracle:thin:@hypnos.com:1521:ACT0")
                 .build();
         return dataSource;
