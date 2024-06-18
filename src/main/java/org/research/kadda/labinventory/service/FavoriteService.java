@@ -12,7 +12,6 @@ import java.util.Optional;
 public class FavoriteService {
     private FavoriteRepository favoriteRepository;
 
-    @Autowired
     public FavoriteService(FavoriteRepository favoriteRepository) {
         this.favoriteRepository = favoriteRepository;
     }
