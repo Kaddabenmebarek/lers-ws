@@ -11,7 +11,6 @@ import java.util.Optional;
 public class ResoptionService {
     private ResoptionRepository resoptionRepository;
 
-    @Autowired
     public ResoptionService(ResoptionRepository resoptionRepository) {
         this.resoptionRepository = resoptionRepository;
     }
