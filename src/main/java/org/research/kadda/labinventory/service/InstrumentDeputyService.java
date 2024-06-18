@@ -13,7 +13,6 @@ public class InstrumentDeputyService {
 
     private InstrumentDeputyRepository instrumentDeputyRepository;
 
-    @Autowired
     public InstrumentDeputyService(InstrumentDeputyRepository instrumentDeputyRepository) {
         this.instrumentDeputyRepository = instrumentDeputyRepository;
     }
