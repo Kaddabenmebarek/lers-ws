@@ -11,7 +11,6 @@ import org.springframework.stereotype.Service;
 public class SynthesisOrderService {
     private SynthesisOrderRepository synthesisOrderRepository;
 
-    @Autowired
     public SynthesisOrderService(SynthesisOrderRepository cSOrderRepository) {
         this.synthesisOrderRepository = cSOrderRepository;
     }
