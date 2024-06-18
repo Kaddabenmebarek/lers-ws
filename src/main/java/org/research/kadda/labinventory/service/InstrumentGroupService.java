@@ -14,7 +14,6 @@ public class InstrumentGroupService {
 	
 	    private InstrumentGroupRepository instrumentGroupRepository;
 
-	    @Autowired
 	    public InstrumentGroupService(InstrumentGroupRepository instrumentGroupRepository) {
 	        this.instrumentGroupRepository = instrumentGroupRepository;
 	    }
