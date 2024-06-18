@@ -13,8 +13,7 @@ public class InstrumentPriorityUsersService {
 
     private InstrumentPriorityUsersRepository instrumentPriorityUsersRepository;
 
-    @Autowired
-    public InstrumentPriorityUsersService(InstrumentPriorityUsersRepository instrumentPriorityUsersRepository) {
+   public InstrumentPriorityUsersService(InstrumentPriorityUsersRepository instrumentPriorityUsersRepository) {
         this.instrumentPriorityUsersRepository = instrumentPriorityUsersRepository;
     }
 
