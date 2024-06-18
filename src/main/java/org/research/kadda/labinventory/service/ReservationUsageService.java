@@ -14,7 +14,6 @@ public class ReservationUsageService {
 	
 	    private ReservationUsageRepository reservationUsageRepository;
 
-	    @Autowired
 	    public ReservationUsageService(ReservationUsageRepository reservationUsageRepository) {
 	        this.reservationUsageRepository = reservationUsageRepository;
 	    }
