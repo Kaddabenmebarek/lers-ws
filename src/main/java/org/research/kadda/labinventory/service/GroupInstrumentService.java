@@ -10,7 +10,6 @@ import org.springframework.stereotype.Service;
 public class GroupInstrumentService {
     private GroupInstrumentRepository groupInstrumentRepository;
 
-    @Autowired
     public GroupInstrumentService(GroupInstrumentRepository groupInstrumentRepository) {
         this.groupInstrumentRepository = groupInstrumentRepository;
     }
