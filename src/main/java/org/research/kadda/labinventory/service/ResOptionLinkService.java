@@ -9,8 +9,7 @@ import org.springframework.stereotype.Service;
 public class ResOptionLinkService {
     private ResOptionLinkRepository resOptionLinkRepository;
 
-    @Autowired
-    public ResOptionLinkService(ResOptionLinkRepository resOptionLinkRepository) {
+   public ResOptionLinkService(ResOptionLinkRepository resOptionLinkRepository) {
         this.resOptionLinkRepository = resOptionLinkRepository;
     }
 
