@@ -16,7 +16,6 @@ import java.util.Optional;
 public class InstrumentService {
     private InstrumentRepository instrumentRepository;
 
-    @Autowired
     public InstrumentService(InstrumentRepository instrumentRepository) {
         this.instrumentRepository = instrumentRepository;
     }
