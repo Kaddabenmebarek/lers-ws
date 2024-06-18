@@ -16,7 +16,6 @@ public class GroupService {
 
     private GroupRepository groupRepository;
 
-    @Autowired
     public GroupService(GroupRepository groupRepository) {
         this.groupRepository = groupRepository;
     }
